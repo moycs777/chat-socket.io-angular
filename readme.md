@@ -1,0 +1,1 @@
+This a simple test of socket.io with angular
