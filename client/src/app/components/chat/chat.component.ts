@@ -32,7 +32,8 @@ export class ChatComponent implements OnInit {
   }
 
   myMessage(){
-    this.webSocketService.emit(this.eventName, this.userChat.text);
+    console.log('_ myMessage : this.userChat.text', this.userChat)
+    this.webSocketService.emit(this.eventName, this.userChat);
     this.userChat.text = '';
   }
 
