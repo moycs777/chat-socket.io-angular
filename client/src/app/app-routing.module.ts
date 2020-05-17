@@ -9,7 +9,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'chat',
+    path: 'chat/:id',
     component: ChatComponent
   }
 ];
